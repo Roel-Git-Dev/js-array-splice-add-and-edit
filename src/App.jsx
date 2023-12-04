@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect } from "react"
 import "./App.css"
 import ActionChooser from "./components/ActionChooser/ActionChooser"
 import AddEditInputOptions from "./components/AddEditInputOptions/AddEditInputOptions"
