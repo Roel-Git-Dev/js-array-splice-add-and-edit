@@ -6,11 +6,9 @@ import AddEditContextWrapper from "./context/AddEditContextWrapper"
 
 const screenResizing = (screenWidthStateCB, appTitleStateCB) => {
     screenWidthStateCB(prev => {
-        console.log(prev) 
         return window.innerWidth
     })
     appTitleStateCB(prev => {
-        console.log(`Previous ${prev}`)
         if (window.innerWidth > 600)
             return "Array Splice; Using Add and Edit"
         else
